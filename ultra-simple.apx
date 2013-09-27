@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Airport>
+  <airportName>Ultra Simple</airportName>
+  <airportCreated>2009-15-1</airportCreated>
+  <runway UID="6">
+    <centerX>-832.1962</centerX>
+    <centerY>650.1805</centerY>
+    <orientation>0</orientation>
+    <length>2000</length>
+    <width>45</width>
+  </runway>
+</Airport>

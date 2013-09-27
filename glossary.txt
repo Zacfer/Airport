@@ -1,0 +1,22 @@
+10
+TORA
+Take off runway available
+TODA
+Take off runway plus clearways
+ASDA
+Accelerate and stop distance available
+LDA
+Landing distance available
+RVR
+Runway Visual Range
+CAT I
+Not lower than 200ft, not less than 800m vis with RVR<550
+CAT II
+Not lower than 100ft, and RVR not less than 350
+CAT III A
+A decision height lower than 100ft with No minimum, RVR not less than 200
+CAT III B
+No minimum, RVR not less than 50
+CAT III C
+No decision height or RVR limitations
+

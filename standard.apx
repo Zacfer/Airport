@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Airport>
+  <airportName>Standard</airportName>
+  <airportCreated>2009-15-1</airportCreated>
+  <runway UID="3">
+    <centerX>-1716.03</centerX>
+    <centerY>819.8052</centerY>
+    <orientation>33.0238675557966</orientation>
+    <length>2000</length>
+    <width>55</width>
+    <topExtension UID="18795">
+      <length>200</length>
+      <type>STARTER_EXTENSION</type>
+      <width>40</width>
+    </topExtension>
+  </runway>
+  <runway UID="93">
+    <centerX>-528.6573</centerX>
+    <centerY>337.714</centerY>
+    <orientation>33</orientation>
+    <length>2000</length>
+    <width>55</width>
+    <topExtension UID="19346">
+      <length>400</length>
+      <type>STOPWAY</type>
+    </topExtension>
+  </runway>
+  <taxiwayJoin UID="3233">
+    <joinX>-1823.782</joinX>
+    <joinY>44.02019</joinY>
+  </taxiwayJoin>
+  <taxiwayJoin UID="3522">
+    <joinX>-948.5948</joinX>
+    <joinY>1388.145</joinY>
+  </taxiwayJoin>
+  <taxiwayJoin UID="4710">
+    <joinX>-1241.842</joinX>
+    <joinY>-213.4834</joinY>
+  </taxiwayJoin>
+  <taxiwayJoin UID="5020">
+    <joinX>-358.6949</joinX>
+    <joinY>1126.368</joinY>
+  </taxiwayJoin>
+  <taxiwayJoin UID="6292">
+    <joinX>-527.9159</joinX>
+    <joinY>869.6375</joinY>
+  </taxiwayJoin>
+  <taxiwayJoin UID="8327">
+    <joinX>-649.3073</joinX>
+    <joinY>685.4708</joinY>
+  </taxiwayJoin>
+  <taxiwayJoin UID="10596">
+    <joinX>-1070.264</joinX>
+    <joinY>46.82304</joinY>
+  </taxiwayJoin>
+  <taxiwayJoin UID="13547">
+    <joinX>-1679.623</joinX>
+    <joinY>265.4229</joinY>
+  </taxiwayJoin>
+  <taxiwayJoin UID="16317">
+    <joinX>-1127.2</joinX>
+    <joinY>1113.84</joinY>
+  </taxiwayJoin>
+  <taxiwayRunwayJoin UID="620">
+    <joinRX>-1257.505</joinRX>
+    <joinRY>1525.228</joinRY>
+    <joinRunway>3</joinRunway>
+  </taxiwayRunwayJoin>
+  <taxiwayRunwayJoin UID="969">
+    <joinRX>-93.05304</joinRX>
+    <joinRY>1008.486</joinRY>
+    <joinRunway>93</joinRunway>
+  </taxiwayRunwayJoin>
+  <taxiwayRunwayJoin UID="2016">
+    <joinRX>-2131.721</joinRX>
+    <joinRY>180.2805</joinRY>
+    <joinRunway>3</joinRunway>
+  </taxiwayRunwayJoin>
+  <taxiwayRunwayJoin UID="2479">
+    <joinRX>-965.9025</joinRX>
+    <joinRY>-335.5844</joinRY>
+    <joinRunway>93</joinRunway>
+  </taxiwayRunwayJoin>
+  <taxiwayRunwayJoin UID="7288">
+    <joinRX>-263.0576</joinRX>
+    <joinRY>746.7017</joinRY>
+    <joinRunway>93</joinRunway>
+  </taxiwayRunwayJoin>
+  <taxiwayRunwayJoin UID="9440">
+    <joinRX>-404.517</joinRX>
+    <joinRY>528.8734</joinRY>
+    <joinRunway>93</joinRunway>
+  </taxiwayRunwayJoin>
+  <taxiwayRunwayJoin UID="11826">
+    <joinRX>-802.4128</joinRX>
+    <joinRY>-83.83249</joinRY>
+    <joinRunway>93</joinRunway>
+  </taxiwayRunwayJoin>
+  <taxiwayRunwayJoin UID="13995">
+    <joinRX>-1972.421</joinRX>
+    <joinRY>425.3583</joinRY>
+    <joinRunway>3</joinRunway>
+  </taxiwayRunwayJoin>
+  <taxiwayRunwayJoin UID="16804">
+    <joinRX>-1419.662</joinRX>
+    <joinRY>1275.757</joinRY>
+    <joinRunway>3</joinRunway>
+  </taxiwayRunwayJoin>
+  <taxiwaySection UID="1318">
+    <sectionStartID>620</sectionStartID>
+    <sectionEndID>3522</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="2942">
+    <sectionStartID>2016</sectionStartID>
+    <sectionEndID>3233</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="3811">
+    <sectionStartID>3233</sectionStartID>
+    <sectionEndID>4710</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="4103">
+    <sectionStartID>3522</sectionStartID>
+    <sectionEndID>5020</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="4398">
+    <sectionStartID>3233</sectionStartID>
+    <sectionEndID>13547</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="5330">
+    <sectionStartID>4710</sectionStartID>
+    <sectionEndID>2479</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="5643">
+    <sectionStartID>5020</sectionStartID>
+    <sectionEndID>969</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="5959">
+    <sectionStartID>4710</sectionStartID>
+    <sectionEndID>10596</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="6954">
+    <sectionStartID>6292</sectionStartID>
+    <sectionEndID>5020</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="7955">
+    <sectionStartID>6292</sectionStartID>
+    <sectionEndID>7288</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="9067">
+    <sectionStartID>8327</sectionStartID>
+    <sectionEndID>6292</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="10185">
+    <sectionStartID>8327</sectionStartID>
+    <sectionEndID>9440</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="11414">
+    <sectionStartID>10596</sectionStartID>
+    <sectionEndID>8327</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="12649">
+    <sectionStartID>10596</sectionStartID>
+    <sectionEndID>11826</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="14890">
+    <sectionStartID>13547</sectionStartID>
+    <sectionEndID>16317</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="15341">
+    <sectionStartID>13995</sectionStartID>
+    <sectionEndID>13547</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="17777">
+    <sectionStartID>16317</sectionStartID>
+    <sectionEndID>3522</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+  <taxiwaySection UID="18267">
+    <sectionStartID>16804</sectionStartID>
+    <sectionEndID>16317</sectionEndID>
+    <sectionWidth>15</sectionWidth>
+  </taxiwaySection>
+</Airport>

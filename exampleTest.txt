@@ -1,0 +1,10 @@
+What category neccesitates a decision height above 100ft?-CAT IIIA-CAT IIIB-CAT II-CAT I-3-1
+What colour must markings be?-White-Yellow-Blue-Black-1-3
+What type of runway must be judged by sight (At night)-CAT I-Visual-Instrument-CATII-2-5
+What category requires a decision height above 200ft?-CAT IIIA-CAT IIIB-CAT II-CAT I-4-1
+What may be provided at the beginning of a runway?-Starter Extension-Shoulders-Clearway-Threshold-1-5
+What should surround the runway?-Stopway-Blast pad-Runway Strips-Clearway-3-5
+What colour are taxiway markings?-Yellow-White-Blue-Black-1-4
+What does RVR stand for?-Runway Velocity Range-Runway Visual Range-Runway Velocity Reliance-Runway Visual Reliance-2-5
+What does PAPI stand for?-Precise Approach Path Indicator-Precision Approach Path Indication-Precision Approach Path Indicator-Performance Approach Path Indicators-3-2
+Under which category are runway designators shown?-CAT II and above-CAT II and above-CAT III and above-All-4-3

@@ -1,0 +1,37 @@
+You are viewing the 'blank' compliance rating.
+This view contains no markings.
+This view contains no lighting.
+
+
+You are viewing the 'Visual' compliance rating.
+Pilots will be judging their landing on site only - this may be used at night
+
+
+
+You are viewing the 'Non Precision' compliance rating.
+
+
+
+
+You are viewing the 'CAT I' compliance rating.
+Under this rating the decision height becomes no lower than 200ft - with not less than 800m visibility. And the RVR not less than 550.
+
+
+
+You are viewing the 'CAT II' compliance rating.
+Under this rating the decision height becomes no lower than 100ft - With the RVR not less than 350.
+
+
+
+You are viewing the 'CAT III A' compliance rating.
+Under this rating the decision height is unspecified assuming that the RVR is not less than 200.
+
+
+
+You are viewing the 'CAT III B' compliance rating.
+Under this rating the decision height is unspecified assuming that the RVR is not less than 50.
+
+
+
+You are viewing the 'CAT III C' compliance rating.
+Under this rating there are no specified decision heights or RVR limitations.

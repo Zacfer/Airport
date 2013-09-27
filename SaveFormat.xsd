@@ -1,0 +1,76 @@
+<!-- @author: Zacharias Markakis "zm1g09"
+The given schema was incorrect.
+1. Attributes have to come after sequence element. (Changed order)
+2. xs:date type cannot be used as the given date format is invalid. (Changed it to xs:string.)
+3. Typos in element types - case sensitivity typos. (Corrected)
+4. Minimum and maximum number of occurrences not defined. (Added)
+5. Wrong order of elements in xs:sequence (Corrected)
+
+* The other choice would be to change all the given XML files, but I decided against that because 
+if our code is tested with new XML files we won't be able to change them and there will still be errors.
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="Airport">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="airportName" type="xs:string" />
+				<xs:element name="airportCreated" type="xs:string" />
+				<xs:element name="runway" type="runwayType" minOccurs="1" maxOccurs="unbounded" />
+				<xs:element name="taxiwayJoin" type="TaxiwayJoinType" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element name="taxiwayRunwayJoin" type="TaxiwayRunwayJoinType" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element name="taxiwaySection" type="TaxiwaySectionType" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="runwayType">
+		<xs:sequence>
+			<xs:element name="centerX" type="xs:decimal" />
+			<xs:element name="centerY" type="xs:decimal" />
+			<xs:element name="orientation" type="xs:decimal" />
+			<xs:element name="length" type="xs:decimal" />
+			<xs:element name="width" type="xs:decimal" />
+			<xs:element name="topExtension" type="extensionType" minOccurs="0" />
+			<xs:element name="bottomExtension" type="extensionType" minOccurs="0" />
+		</xs:sequence>
+		<xs:attribute name="UID" type="xs:int" use="required" />
+	</xs:complexType>
+
+	<xs:complexType name="extensionType">
+		<xs:sequence>
+			<xs:element name="length" type="xs:decimal" minOccurs="0" />
+			<xs:element name="type" type="xs:string" />
+			<xs:element name="width" type="xs:string" minOccurs="0" />
+		</xs:sequence>
+		<xs:attribute name="UID" type="xs:int" use="required" />
+	</xs:complexType>
+
+	<xs:complexType name="TaxiwayJoinType">
+		<xs:sequence>
+			<xs:element name="joinX" type="xs:decimal" />
+			<xs:element name="joinY" type="xs:decimal" />
+		</xs:sequence>
+		<xs:attribute name="UID" type="xs:int" use="required" />
+	</xs:complexType>
+
+	<xs:complexType name="TaxiwayRunwayJoinType">
+		<xs:sequence>
+			<xs:element name="joinRX" type="xs:decimal" />
+			<xs:element name="joinRY" type="xs:decimal" />
+			<xs:element name="joinRunway" type="xs:int" />
+		</xs:sequence>
+		<xs:attribute name="UID" type="xs:int" use="required" />
+	</xs:complexType>
+
+
+	<xs:complexType name="TaxiwaySectionType">
+		<xs:sequence>
+			<xs:element name="sectionStartID" type="xs:int" />
+			<xs:element name="sectionEndID" type="xs:int" />
+			<xs:element name="sectionWidth" type="xs:decimal" />
+		</xs:sequence>
+		<xs:attribute name="UID" type="xs:int" use="required" />
+	</xs:complexType>
+
+</xs:schema>
